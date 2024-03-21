@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta tagse -->
+        <title>Ridex - Rent your favourite car</title>
+        <meta name="title" content="Ridex - Rent your favourite car">
+        <meta name="description" content="Rent your favourite car">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+        <!-- custom font awesome link -->
+        <link rel="stylesheet" href="./assets/css/all.min.css">
+        <!-- custom css link -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body id="top">
+        <!-- #HEADER -->
+        <header class="header">
+            <div class="container" data-header>
+                <div class="overflow" data-overflow></div>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.svg" alt="Ridex logo">
+                </a>
+
+                <nav class="navbar" data-navbar>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="#Home" class="navbar-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#Explore" class="navbar-link">Explore cars</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#About" class="navbar-link">About us</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#Blog" class="navbar-link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-right">
+                    <div class="box-number">
+                        <a href="tel:8 800 234 56 78" class="number">8 800 234 56 78</a>
+                        <p>Mon - Sat: 9:00 am - 6:00 pm</p>
+                    </div>
+
+                    <a href="#Explore" class="btn">
+                        <span>Explore cars</span>
+                        <i class="fa-solid fa-car car-icon"></i>
+                    </a>
+
+                    <span class="fa-regular fa-user user"></span>
+
+                    <button class="btn-menu" data-btn-menu>
+                        <span class="item item1"></span>
+                        <span class="item item2"></span>
+                        <span class="item item3"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <!-- #HERO -->
+                <div class="hero" id="Home">
+                    <div class="container">
+                        <figure class="img-hero img-cover">
+                            <img src="./assets/images/hero-banner.jpg" alt="hero img">
+                        </figure>
+
+                        <div class="hero-content">
+                            <h1 class="h1">The easy way to<br> takeover a lease</h1>
+                            <p class="hero-pragraf">Live in New York, New Jerset and Connecticut!</p>
+                            <form class="hero-form">
+                                <div class="input-box">
+                                    <p class="title-input">Car, model, or brand</p>
+                                    <input type="text" placeholder="What car are you looking?" class="input-item">
+                                </div>
+
+                                <div class="input-box border">
+                                    <p class="title-input">Max. monthly payment</p>
+                                    <input type="text" placeholder="Add an amount in $" class="input-item">
+                                </div>
+
+                                <div class="input-box">
+                                    <p class="title-input">Make Year</p>
+                                    <input type="text" placeholder="Add a minimal make year" class="input-item">
+                                </div>
+
+                                <button type="submit" class="submit">
+                                    <span>Search</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- #FEATURED CAR -->
+                <section class="Featured-cars section" id="Explore">
+                    <div class="container">
+                        <div class="Featured-title">
+                            <h2>Featured cars</h2>
+                            <a href="#" class="btn">
+                                <span>View more</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <ul class="Featured-cars-list">
+                            <li class="Featured-card">
+                                <figure>
+                                    <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" class="img-cover">
+                                </figure>
+
+                                <div class="Featured-content">
+                                    <div class="content-title">
+                                        <a href="#" class="name-car">
+                                            <span>Toyota RAV4</span>
+                                        </a>
+                                        <data class="year" value="2021">2021</data>
+                                    </div>
+                                    <ul class="box-list">
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-users"></i>
+                                            <h3>4 People</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            <h3>Hybrid</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            <h3>6.1km / 1-litre</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-microchip"></i>
+                                            <h3>Automatic</h3>
+                                        </li>
+                                    </ul>
+                                    <div class="card-wrapper">
+                                        <div class="card-price">
+                                            <h2>$440</h2>
+                                            <span>/ month</span>
+                                        </div>
+                                        <div class="card-btns">
+                                            <button class="heart">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </button>
+                                            <a href="#" class="btn1">
+                                                <span>Rent now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="Featured-card">
+                                <figure>
+                                    <img src="./assets/images/car-2.jpg" alt="BMW 3 Series 2019" class="img-cover">
+                                </figure>
+
+                                <div class="Featured-content">
+                                    <div class="content-title">
+                                        <a href="#" class="name-car">
+                                            <span>BMW 3 Series</span>
+                                        </a>
+                                        <data class="year" value="2019">2019</data>
+                                    </div>
+                                    <ul class="box-list">
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-users"></i>
+                                            <h3>4 People</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            <h3>Gasoline</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            <h3>8.2km / 1-litre</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-microchip"></i>
+                                            <h3>Automatic</h3>
+                                        </li>
+                                    </ul>
+                                    <div class="card-wrapper">
+                                        <div class="card-price">
+                                            <h2>$350</h2>
+                                            <span>/ month</span>
+                                        </div>
+                                        <div class="card-btns">
+                                            <button class="heart">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </button>
+                                            <a href="#" class="btn1">
+                                                <span>Rent now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="Featured-card">
+                                <figure>
+                                    <img src="./assets/images/car-3.jpg" alt="Volkswagen T-Cross 2020" class="img-cover">
+                                </figure>
+
+                                <div class="Featured-content">
+                                    <div class="content-title">
+                                        <a href="#" class="name-car">
+                                            <span>Volkswagen T-Cross</span>
+                                        </a>
+                                        <data class="year" value="2020">2020</data>
+                                    </div>
+                                    <ul class="box-list">
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-users"></i>
+                                            <h3>4 People</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            <h3>Gasoline</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            <h3>5.3km / 1-litre</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-microchip"></i>
+                                            <h3>Automatic</h3>
+                                        </li>
+                                    </ul>
+                                    <div class="card-wrapper">
+                                        <div class="card-price">
+                                            <h2>$400</h2>
+                                            <span>/ month</span>
+                                        </div>
+                                        <div class="card-btns">
+                                            <button class="heart">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </button>
+                                            <a href="#" class="btn1">
+                                                <span>Rent now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="Featured-card">
+                                <figure>
+                                    <img src="./assets/images/car-4.jpg" alt="Cadillac Escalade 2020" class="img-cover">
+                                </figure>
+
+                                <div class="Featured-content">
+                                    <div class="content-title">
+                                        <a href="#" class="name-car">
+                                            <span>Cadillac Escalade</span>
+                                        </a>
+                                        <data class="year" value="2020">2020</data>
+                                    </div>
+                                    <ul class="box-list">
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-users"></i>
+                                            <h3>4 People</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            <h3>Gasoline</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            <h3>7.7km / 1-litre</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-microchip"></i>
+                                            <h3>Automatic</h3>
+                                        </li>
+                                    </ul>
+                                    <div class="card-wrapper">
+                                        <div class="card-price">
+                                            <h2>$620</h2>
+                                            <span>/ month</span>
+                                        </div>
+                                        <div class="card-btns">
+                                            <button class="heart">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </button>
+                                            <a href="#" class="btn1">
+                                                <span>Rent now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="Featured-card">
+                                <figure>
+                                    <img src="./assets/images/car-5.jpg" alt="BMW 4 Series GTI 2021" class="img-cover">
+                                </figure>
+
+                                <div class="Featured-content">
+                                    <div class="content-title">
+                                        <a href="#" class="name-car">
+                                            <span>BMW 4 Series GTI</span>
+                                        </a>
+                                        <data class="year" value="2021">2021</data>
+                                    </div>
+                                    <ul class="box-list">
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-users"></i>
+                                            <h3>4 People</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            <h3>Gasoline</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            <h3>7.6km / 1-litre</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-microchip"></i>
+                                            <h3>Automatic</h3>
+                                        </li>
+                                    </ul>
+                                    <div class="card-wrapper">
+                                        <div class="card-price">
+                                            <h2>$530</h2>
+                                            <span>/ month</span>
+                                        </div>
+                                        <div class="card-btns">
+                                            <button class="heart">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </button>
+                                            <a href="#" class="btn1">
+                                                <span>Rent now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="Featured-card">
+                                <figure>
+                                    <img src="./assets/images/car-6.jpg" alt="BMW 4 Series 2019" class="img-cover">
+                                </figure>
+
+                                <div class="Featured-content">
+                                    <div class="content-title">
+                                        <a href="#" class="name-car">
+                                            <span>BMW 4 Series</span>
+                                        </a>
+                                        <data class="year" value="2019">2019</data>
+                                    </div>
+                                    <ul class="box-list">
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-users"></i>
+                                            <h3>4 People</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            <h3>Gasoline</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            <h3>7.2km / 1-litre</h3>
+                                        </li>
+                                        <li class="box-item">
+                                            <i class="fa-solid fa-microchip"></i>
+                                            <h3>Automatic</h3>
+                                        </li>
+                                    </ul>
+                                    <div class="card-wrapper">
+                                        <div class="card-price">
+                                            <h2>$490</h2>
+                                            <span>/ month</span>
+                                        </div>
+                                        <div class="card-btns">
+                                            <button class="heart">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </button>
+                                            <a href="#" class="btn1">
+                                                <span>Rent now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- #GET START -->
+                <section class="get-start section" id="About">
+                    <div class="container">
+                        <div class="get-start-title">
+                            <h2>Get started with 4 simple steps</h2>
+                        </div>
+
+                        <ul class="get-start-list">
+                            <li class="get-start-box">
+                                <i class="fa-solid fa-user-plus icon1"></i>
+                                <h3>Create a profile</h3>
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+                                <a href="#" class="link">Get started</a>
+                            </li>
+                            
+                            <li class="get-start-box">
+                                <i class="fa-solid fa-car icon2"></i>
+                                <h3>Tell us what car you want</h3>
+                                <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+                            </li>
+                            
+                            <li class="get-start-box">
+                                <i class="fa-solid fa-user icon3"></i>
+                                <h3>Match with seller</h3>
+                                <p>It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                            </li>
+                            
+                            <li class="get-start-box">
+                                <i class="fa-regular fa-credit-card icon4"></i>
+                                <h3>Make a deal</h3>
+                                <p>There are many variations of passages of Lorem available, but the majority have suffered alteration.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- #BLOG -->
+                <section class="blog section" id="Blog">
+                    <div class="container">
+                        <div class="blog-title">
+                            <h2>Our Blog</h2>
+                        </div>
+
+                        <ul class="blog-list">
+                            <li class="blog-box">
+                                <figure>
+                                    <img src="./assets/images/blog-1.jpg" alt="Opening of new offices of the company" class="img-cover">
+                                    <a href="#" class="btn2">
+                                        <span>Company</span>
+                                    </a>
+                                </figure>
+
+                                <div class="blog-box-content">
+                                    <h2>Opening of new offices of the company</h2>
+                                    <div class="blog-box-bottom">
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>January 14, 2022 </span>
+                                        </p>
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-comment-dots"></i>
+                                            <span>114</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="blog-box">
+                                <figure>
+                                    <img src="./assets/images/blog-2.jpg" alt="What cars are most vulnerable" class="img-cover">
+                                    <a href="#" class="btn2">
+                                        <span>Repair</span>
+                                    </a>
+                                </figure>
+
+                                <div class="blog-box-content">
+                                    <h2>What cars are most<br> vulnerable</h2>
+                                    <div class="blog-box-bottom">
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>January 14, 2022 </span>
+                                        </p>
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-comment-dots"></i>
+                                            <span>114</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="blog-box">
+                                <figure>
+                                    <img src="./assets/images/blog-3.jpg" alt="Statistics showed which average age" class="img-cover">
+                                    <a href="#" class="btn2">
+                                        <span>Cars</span>
+                                    </a>
+                                </figure>
+
+                                <div class="blog-box-content">
+                                    <h2>Statistics showed which<br> average age</h2>
+                                    <div class="blog-box-bottom">
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>January 14, 2022 </span>
+                                        </p>
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-comment-dots"></i>
+                                            <span>114</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="blog-box">
+                                <figure>
+                                    <img src="./assets/images/blog-4.jpg" alt="What´s required when renting a car?" class="img-cover">
+                                    <a href="#" class="btn2">
+                                        <span>Cars</span>
+                                    </a>
+                                </figure>
+
+                                <div class="blog-box-content">
+                                    <h2>What´s required when renting a car?</h2>
+                                    <div class="blog-box-bottom">
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>January 14, 2022 </span>
+                                        </p>
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-comment-dots"></i>
+                                            <span>114</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="blog-box">
+                                <figure>
+                                    <img src="./assets/images/blog-5.jpg" alt="New rules for handling our cars" class="img-cover">
+                                    <a href="#" class="btn2">
+                                        <span>Company</span>
+                                    </a>
+                                </figure>
+
+                                <div class="blog-box-content">
+                                    <h2>New rules for handling<br> our cars</h2>
+                                    <div class="blog-box-bottom">
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>January 14, 2022 </span>
+                                        </p>
+                                        <p class="blog-pragraf">
+                                            <i class="fa-regular fa-comment-dots"></i>
+                                            <span>114</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <!-- #FOOTER -->
+        <footer class="footer">
+            <div class="footer-top section">
+                <div class="container">
+                    <div class="footer-box footer1">
+                        <a href="#" class="logo">
+                            <img src="./assets/images/logo.svg" alt="Ridex logo">
+                        </a>
+                        <p>Search for cheap rental cars in New York. With a diverse fleet of 
+                        19,000 vehicles, Waydex offers its consumers an 
+                        attractive and fun selection.</p>
+                    </div>
+
+                    <div class="footer-box footer2">
+                        <h3>Company</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>About us</span>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Pricing plans</span>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Our blog</span>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Contacts</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-box footer3">
+                        <h3>Support</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Help center</span>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Ask a question</span>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Privacy policy</span>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">
+                                    <span>Terms & conditions</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-box footer4">
+                        <h3>Neighborhoods in New York</h3>
+                        <div class="footer-right">
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Manhattan</span>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Central New York City</span>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Upper East Side</span>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Queens</span>
+                                    </a>
+                                </li>
+                            </ul>
+    
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Theater District</span>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Midtown</span>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>SoHo</span>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-link">
+                                        <span>Chelsea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="category">
+                    &copy; 2022 codewithsadee. All Rights Reserved
+                </p>
+
+                <ul class="social-list">
+                    <li class="social item">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    
+                    <li class="social item">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    
+                    <li class="social item">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                
+                    <li class="social item">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    
+                    <li class="social item">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-skype"></i>
+                        </a>
+                    </li>
+                    
+                    <li class="social item">
+                        <a href="#" class="social-link">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- #BTN BACK TOP -->
+        <a href="#top" class="btn-top" data-btn-top>
+            <i class="fa-solid fa-arrow-turn-up"></i>
+        </a>
+
+        <!-- custom js link -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
